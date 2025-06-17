@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    window.onload = function() {
+      const surveys = [
+        "https://forms.gle/nNakjR4kqRb88adz7",
+        "https://forms.gle/y2Na7BnX8uFKdNwQ7",
+        "https://forms.gle/kGZzS58W4JA57rcq7",
+        "https://forms.gle/YBLiyc2nycT3vRcS9"
+      ];
+      const randomIndex = Math.floor(Math.random() * surveys.length);
+      window.location.href = surveys[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you to a survey...</p>
+</body>
+</html>
